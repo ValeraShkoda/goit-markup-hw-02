@@ -36,6 +36,9 @@ body {
   color: #212121;
 }
 
+.menu:active {
+  color: var(--color-site);
+}
 .menu:hover,
 .menu:focus {
   color: var(--color-site);
@@ -105,7 +108,7 @@ body {
 
 /**footer**/
 .cursor {
-  cursor: none;
+  cursor: default;
 }
 .address {
   color: #ffffff;
