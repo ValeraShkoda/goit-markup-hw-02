@@ -35,7 +35,9 @@ body {
   font-weight: 1.14;
   color: #212121;
 }
-
+.current {
+  color: var(--color-site);
+}
 .menu:active {
   color: var(--color-site);
 }
