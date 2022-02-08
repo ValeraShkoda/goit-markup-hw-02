@@ -9,10 +9,10 @@ body {
 /**header**/
 
 .logo {
-  font-style: 700;
+  font-weight: 700;
   font-family: raleway;
   font-size: 26px;
-  font-weight: 1.7;
+  line-height: 1.7;
   color: #212121;
 }
 /**header**/
