@@ -1,9 +1,11 @@
 :root {
   --color-site: #2196f3;
   --color-text: #757575;
-  --color-btn-hero:#ffffff;
-  --color-fnt-title :#212121;
-  --background-color:#f5f4fa;
+  --color-btn-hero: #ffffff;
+  --color-fnt-title: #212121;
+  --background-color: #f5f4fa;
+  --fon-hero: #2f303a;
+  --footer-color: #2f303a;
 }
 
 .list {
@@ -12,7 +14,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--color-fnt-title);
   font-size: 14px;
 }
 /**header**/
@@ -36,7 +38,7 @@ body {
 
 .menu {
   font-weight: 1.14;
-  color:var(--color-fnt-title);
+  color: var(--color-fnt-title);
 }
 .current {
   color: var(--color-site);
@@ -61,7 +63,7 @@ body {
 /**main**/
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--fon-hero);
 }
 
 .text-hero {
@@ -69,7 +71,7 @@ body {
   font-size: 44px;
   line-height: 1.37;
   text-align-last: Center;
-  color:var(--color-btn-hero);
+  color: var(--color-btn-hero);
 }
 
 .button-hero {
@@ -116,19 +118,19 @@ body {
   cursor: default;
 }
 .address {
-  color: color: var(--color-btn-hero);
+  color: var(--color-btn-hero);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .address-list {
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
 }
-.sectiom-team {
-  background-color:var(--background-color);
+.section-team {
+  background-color: var(--background-color);
 }
 
 /**portfolio**/
@@ -142,7 +144,7 @@ body {
 }
 .btn-filter:hover,
 .btn-filter:focus {
-  color:color: var(--color-btn-hero);
+  color: var(--color-btn-hero);
   background-color: var(--color-site);
   cursor: pointer;
 }
