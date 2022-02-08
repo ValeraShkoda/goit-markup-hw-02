@@ -1,3 +1,8 @@
+:root {
+  --color-site: #2196f3;
+  --color-text: #757575;
+}
+
 .list {
   text-decoration: none;
   list-style: none;
@@ -5,6 +10,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
+  font-size: 14px;
 }
 /**header**/
 
@@ -18,7 +24,7 @@ body {
 /**header**/
 
 .logo-web {
-  color: #2196f3;
+  color: var(--color-site);
 }
 
 .color-studio {
@@ -26,23 +32,22 @@ body {
 }
 
 .menu {
-  font-size: 14px;
   font-weight: 1.14;
   color: #212121;
 }
 
 .menu:hover,
 .menu:focus {
-  color: #2196f3;
+  color: var(--color-site);
 }
 
 .mail-tell {
-  color: #757575;
+  color: var(--color-text);
 }
 
 .mail-tell:hover,
 .mail-tell:focus {
-  color: #2196f3;
+  color: var(--color-site);
 }
 
 /**main**/
@@ -60,11 +65,12 @@ body {
 }
 
 .button-hero {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--color-site);
 }
 .title {
   font-weight: 700;
@@ -75,7 +81,6 @@ body {
 
 .title-small {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
 }
 
@@ -87,16 +92,15 @@ body {
 
 .synopsis {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--color-text);
 }
 
 .synopsis-team {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: #757575;
+  color: var(--color-text);
 }
 
 /**footer**/
@@ -113,7 +117,6 @@ body {
 .address-list {
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 .sectiom-team {
@@ -132,7 +135,7 @@ body {
 .btn-filter:hover,
 .btn-filter:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--color-site);
   cursor: pointer;
 }
 .projects-title {
@@ -144,9 +147,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  color: #757575;
+  color: var(--color-text);
 }
 .address:hover,
 .address:focus {
-  color: #2196f3;
+  color: var(--color-site);
 }
